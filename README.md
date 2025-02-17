@@ -1,5 +1,4 @@
-Wildlife Image Classification Model for Game Drivers
-Overview
+
 This machine learning model is designed to classify images of various wildlife animals captured at different points within a national park. The model helps game drivers by providing predictions on the species of animals in the images, along with insights into potential locations and times where these animals can be spotted. By utilizing image data from the park, the model aids in guiding drivers to areas where specific wildlife is most likely to be found, enhancing the overall wildlife observation experience for park visitors.
 
 Features
