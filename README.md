@@ -1,15 +1,16 @@
-
-This machine learning model is designed to classify images of various wildlife animals captured at different points within a national park. The model helps game drivers by providing predictions on the species of animals in the images, along with insights into potential locations and times where these animals can be spotted. By utilizing image data from the park, the model aids in guiding drivers to areas where specific wildlife is most likely to be found, enhancing the overall wildlife observation experience for park visitors.
+Wildlife Image Classification Model for Game Drivers
+Overview
+This machine learning model is designed to classify images of various wildlife animals captured by cameras at different points throughout a national park. The model provides game drivers with valuable insights, helping them identify species in the images and suggesting specific locations and times where these animals are most likely to be spotted. By leveraging image data from cameras strategically placed throughout the park, this model helps enhance the wildlife observation experience for visitors and assist game drivers in finding animals more efficiently.
 
 Features
-Wildlife Classification: The model can accurately identify multiple species of animals captured in images taken by game drivers or cameras throughout the park.
-Location Prediction: Based on image metadata, the model can help suggest potential regions where animals are commonly seen, enabling better navigation.
-Time-based Insights: Using temporal data from image timestamps, the model can predict the most likely times of day for sightings of different animals in specific locations.
+Wildlife Classification: The model accurately classifies animal species captured in images taken by cameras positioned at various locations within the park.
+Location Prediction: Based on the metadata associated with the images, the model suggests potential areas where certain animals are commonly observed.
+Time-based Insights: The model provides predictions regarding the best times of day for spotting specific animals at particular locations, based on historical data.
 How It Works
-Data Collection: The model is trained using a large dataset of images of various animal species captured at different GPS locations and times within the national park. The dataset also includes metadata (time, date, GPS coordinates) linked with each image.
+Data Collection: The model is trained using a large dataset of animal images captured by cameras positioned at various points across the national park. These images are accompanied by metadata, including timestamps and GPS coordinates, indicating where and when the photos were taken.
 
-Model Training: A deep learning-based approach is used to train the model, employing Convolutional Neural Networks (CNNs) to classify animal species in images. This model learns to recognize different animals through patterns such as shape, color, and texture in the images.
+Model Training: A deep learning-based approach is used to train the model, employing Convolutional Neural Networks (CNNs) to classify animal species in images. The model learns to recognize animals by identifying patterns in shapes, colors, and textures within the images.
 
-Image Classification: Given a new image, the model processes the image to classify the species of animal present. Based on the timestamp and GPS data associated with the image, the model also suggests the optimal locations and times for spotting that species in the future.
+Image Classification: When a new image is provided, the model processes it to identify the species of animal present. Using the metadata (timestamp and GPS coordinates), the model also provides predictions for the best locations and times to find that species in the future.
 
-Prediction & Assistance: Game drivers can upload images taken during their journeys, and the model will classify the animal, display relevant information about the species, and provide guidance on ideal times and locations to find similar animals
+Prediction & Assistance: Game drivers can upload images taken by cameras along their routes. The model will classify the animals in the images, offer relevant details about each species, and provide guidance on the best times and locations for spotting similar animals.
