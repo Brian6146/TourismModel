@@ -2,8 +2,14 @@ This machine learning model is designed to classify images of various wildlife a
 
 Features
 Wildlife Classification: The model accurately classifies animal species captured in images taken by cameras positioned at various locations within the park.
+
+
 Location Prediction: Based on the metadata associated with the images, the model suggests potential areas where certain animals are commonly observed.
+
+
 Time-based Insights: The model provides predictions regarding the best times of day for spotting specific animals at particular locations, based on historical data.
+
+
 How It Works
 Data Collection: The model is trained using a large dataset of animal images captured by cameras positioned at various points across the national park. These images are accompanied by metadata, including timestamps and GPS coordinates, indicating where and when the photos were taken.
 
